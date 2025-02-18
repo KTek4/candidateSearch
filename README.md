@@ -1,33 +1,40 @@
-# React + TypeScript + Vite
+ Candidate Search
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+                 
+## Description
+  
+This project can be used to find potential coding candidates for any coding projects. It pulls potential candiates from GitHub, puts them on a single card with their avatar and pertinent info, and allows the user to accept (to be reviewed later) or reject the candidate. Then, the user can review all saved candidates to pursue or finally reject.
 
-Currently, two official plugins are available:
+## Table of Contents
+  
+- [Candidate Search](#candidate-search)
+  - [Description](#description)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [License](#license)
+  - [Credits](#credits)
+  - [Tests](#tests)
 
-* [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md), which uses [Babel](https://babeljs.io/) for Fast Refresh
-* [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc), which uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
 
-## Expanding the ESLint configuration
+No installation required
 
-If you're developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Usage
 
-* Configure the top-level `parserOptions` property as follows:
+This page will be updated when the link is properly deployed to render.
+Until then the application will review or deny candidates, and then go the saved candidates page to make final decisions on the potential candidates.
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## License
+This project uses MIT License.
 
-* Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
-* Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
-* Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+Please refer to LICENSE file for more information.
 
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+## Credits
+
+Code is based on example and starter code provided by the edX Bootcamp. All other work was completed by Kalana Ranatunga (KTek4) and with the help of ChatGPT for troubleshooting.
+
+## Tests
+  
+To test, follow usage instructions above.
